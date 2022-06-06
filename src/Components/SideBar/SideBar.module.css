@@ -1,0 +1,63 @@
+.sidebar {
+  background-color: #042954;
+  color: #fff;
+  overflow-y: auto;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+.logo {
+  display: flex;
+  position: fixed;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fdc600;
+  padding: 0.75rem;
+  z-index: 999;
+}
+.logo_text img {
+  width: 6rem;
+}
+.routes {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+.link {
+  color: #fff;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+.subMenuContainer {
+  display: flex;
+  flex-flow: column;
+  border-bottom: 1px solid #ddd;
+}
+.item {
+  color: #fff;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.menuItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.subMenu {
+  display: flex;
+  flex-flow: column;
+  background-color: #051f3e;
+  padding: 0.5rem;
+}
+.subLink {
+  color: #fff;
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  padding: 0.5rem;
+}

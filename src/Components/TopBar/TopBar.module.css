@@ -1,0 +1,106 @@
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+.rightBar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.eduCap {
+  width: 3rem;
+  height: 3rem;
+  transform: rotate(-45deg);
+}
+.brandTitle {
+  display: flex;
+  align-items: center;
+}
+.title {
+  font-size: 1.5rem;
+}
+.slag {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.topSearch {
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  border: 1px solid #000;
+  width: 10rem;
+  margin-right: 0.5rem;
+  padding: 0.1rem 0.3rem;
+}
+
+.search {
+  width: 100%;
+  border: none;
+  padding: 0.2rem;
+}
+
+.search:focus {
+  outline: none;
+}
+.language {
+  display: flex;
+  align-items: center;
+  background-color: #ddd;
+  border-radius: 5px;
+  padding: 0.2rem;
+}
+.language select {
+  background-color: unset;
+  border: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.info {
+  display: flex;
+  align-items: center;
+  border-left: 0.1rem solid #8b8b8b;
+  border-right: 0.1rem solid #8b8b8b;
+  margin: 0 0.5rem;
+  padding: 0 0.5rem;
+  gap: 0.5rem;
+}
+.name {
+  font-weight: 600;
+}
+.info_num {
+  position: relative;
+}
+.num {
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #fff;
+}
+.message .num {
+  background-color: #00bcd4;
+}
+.notifications .num {
+  background-color: #fdc600;
+}
