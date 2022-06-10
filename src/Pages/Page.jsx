@@ -10,7 +10,7 @@ function Page({ children, isOpen, handleMenu }) {
         transition: { duration: 0.5, type: 'spring', damping: 10 }
       }}
       className="page">
-      <TopBar sOpen={isOpen} handleMenu={handleMenu} />
+      <TopBar isOpen={isOpen} handleMenu={handleMenu} />
       {children}
     </motion.div>
   );

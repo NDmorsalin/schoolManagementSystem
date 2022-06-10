@@ -1,15 +1,15 @@
-.box{
-    width: 260px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2rem;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+.box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
 }
-.boxIcon{
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    gap: .5rem;
-    justify-content: center;
+.boxIcon {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
 }
